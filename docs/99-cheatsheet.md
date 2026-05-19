@@ -15,12 +15,16 @@
 | 類型 | 元件/指令 | 用途 |
 | --- | --- | --- |
 | NuGet | `dotnet add package Microsoft.Playwright` | 安裝 Playwright API |
-| Browser 安裝 | `pwsh bin/Debug/net8.0/playwright.ps1 install` | 安裝瀏覽器執行檔 |
+| Browser 安裝 | `pwsh bin/Debug/net9.0/playwright.ps1 install` | 安裝瀏覽器執行檔 |
 | 測試執行 | `dotnet test` | 執行 NUnit 測試 |
+| 單一 Lab 執行 | `dotnet test --filter "FullyQualifiedName~Lab03_TodoCrudTests"` | 聚焦單一練習主題 |
 | 導頁 | `page.GotoAsync(url)` | 開啟目標網站 |
 | 斷言前取值 | `page.TitleAsync()` | 讀取頁面標題 |
 | 元素互動 | `locator.ClickAsync()` | 操作按鈕或連結 |
 | 輸入 | `locator.FillAsync(value)` | 輸入表單內容 |
+| 勾選 | `locator.CheckAsync()` | 切換 checkbox 狀態 |
+| 文字斷言 | `Expect(locator).ToContainTextAsync(...)` | 驗證內容 |
+| 狀態斷言 | `Expect(locator).ToBeVisibleAsync()` | 驗證可見性 |
 
 ## 常見錯誤
 
@@ -30,6 +34,7 @@
 | `Timeout ... exceeded` | 定位不準或頁面未就緒 | 改用穩定 `Locator` 並檢查等待條件 |
 | `pwsh is not recognized` | 未安裝 PowerShell 7 | 改用 `powershell -File ...` 執行 |
 | `No test matches` | 測試命名或 Attribute 錯誤 | 檢查 `[Test]` 與類別命名 |
+| 測試偶發失敗 | 共用狀態或等待策略不穩 | 檢查 `BrowserContext` 隔離與 `Expect` 斷言 |
 
 ## 排錯順序
 
