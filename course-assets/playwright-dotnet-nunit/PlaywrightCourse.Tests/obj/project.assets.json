@@ -1692,11 +1692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\side_project\\Playwright\\course-assets\\playwright-dotnet-nunit\\PlaywrightCourse.Tests\\PlaywrightCourse.Tests.csproj",
+      "projectUniqueName": "C:\\side_project\\Playwright-training\\course-assets\\playwright-dotnet-nunit\\PlaywrightCourse.Tests\\PlaywrightCourse.Tests.csproj",
       "projectName": "PlaywrightCourse.Tests",
-      "projectPath": "C:\\side_project\\Playwright\\course-assets\\playwright-dotnet-nunit\\PlaywrightCourse.Tests\\PlaywrightCourse.Tests.csproj",
+      "projectPath": "C:\\side_project\\Playwright-training\\course-assets\\playwright-dotnet-nunit\\PlaywrightCourse.Tests\\PlaywrightCourse.Tests.csproj",
       "packagesPath": "C:\\Users\\theon.lin\\.nuget\\packages\\",
-      "outputPath": "C:\\side_project\\Playwright\\course-assets\\playwright-dotnet-nunit\\PlaywrightCourse.Tests\\obj\\",
+      "outputPath": "C:\\side_project\\Playwright-training\\course-assets\\playwright-dotnet-nunit\\PlaywrightCourse.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

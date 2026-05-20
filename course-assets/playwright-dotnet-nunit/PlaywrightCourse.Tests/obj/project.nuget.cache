@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tcesfgWRf7E=",
+  "dgSpecHash": "KKWmtWuNNbk=",
   "success": true,
-  "projectFilePath": "C:\\side_project\\Playwright\\course-assets\\playwright-dotnet-nunit\\PlaywrightCourse.Tests\\PlaywrightCourse.Tests.csproj",
+  "projectFilePath": "C:\\side_project\\Playwright-training\\course-assets\\playwright-dotnet-nunit\\PlaywrightCourse.Tests\\PlaywrightCourse.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\theon.lin\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\theon.lin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
